@@ -1,4 +1,4 @@
-## Splice-site prediction
+## Splice site prediction
 
 This repository contains code and jupyter notebooks to train and evaluate a transformer model with a 45k context.
 
