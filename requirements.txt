@@ -12,7 +12,6 @@ bleach==4.1.0
 brotlipy==0.7.0
 cachetools==4.2.4
 certifi==2021.5.30
-codecov==2.1.12
 conda==4.10.3
 conda-build==3.21.4
 coverage==6.0.1
