@@ -1,6 +1,5 @@
 absl-py==0.14.1
 alabaster==0.7.12
-apex==0.1
 appdirs==1.4.4
 argcomplete==2.0.0
 argh==0.26.2
