@@ -20,7 +20,7 @@ Further examples of how to make predictions with pre-trained model and predictin
 
 ### `spliceformer-usage.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15dPjh0OqFaGmBUdisxkFEkVeN4KyImt2?usp=sharing).
 
-#### Jupyter notebooks
+## Jupyter notebooks
 To reproduce the results in the Jupyter notebooks it is neccesary to run them roughly in the following order:
 
 1. Construct dataset
