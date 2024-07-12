@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Colab
 
-Further examples of how to make predictions with pre-trained model and predicting the effect of genetic variants are shown in the following colab notebooks:
+Further examples for making predictions with pre-trained weights and predicting the effect of genetic variants are shown in the following colab notebook:
 
 ### `spliceformer-usage.ipynb` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15dPjh0OqFaGmBUdisxkFEkVeN4KyImt2?usp=sharing).
 
