@@ -1,4 +1,4 @@
-# Spliceformer
+# Spliceformer [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14019451.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.14019451.svg)
 
 This repository contains code to train and perform inference using Spliceformer with a 45k context transformer model.
 
