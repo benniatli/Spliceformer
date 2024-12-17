@@ -12,7 +12,7 @@ For more details, please refer to the [paper](https://www.nature.com/articles/s4
 ## Pre-trained Model Overview
 The pre-trained weights for Spliceformer-45k and SpliceAI-10k provided in this repository were trained on:
 
-* ENSEMBL v87 Annotations: Protein-coding transcripts with splice junctions.
+* ENSEMBL v87 Annotations: Protein-coding transcripts with support level 1.
 * RNA-Seq Data:
    * Icelandic Cohort: 17,848 whole blood RNA-Seq samples sequenced by deCODE Genetics.
    * GTEx V8: 15,201 RNA-Seq samples across 49 human tissues.
