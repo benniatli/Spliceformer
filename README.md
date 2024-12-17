@@ -1,6 +1,21 @@
-# Spliceformer [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14019451.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.14019451.svg)
+# Spliceformer: Transformer-Based Splice Site Prediction [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14019451.svg)](https://zenodo.org/badge/DOI/10.5281/zenodo.14019451.svg)
 
-This repository contains code to train and perform inference using Spliceformer with a 45k context transformer model.
+Spliceformer is a machine learning tool that leverages transformers to detect splice sites in pre-mRNA sequences and estimate the impact of genetic variants on splicing by analyzing long nucleotide sequences (up to 45,000 context length).
+
+This repository provides:
+
+* Jupyter Notebooks: Step-by-step examples for training and inference.
+* Pre-trained Weights: Ready-to-use models for splice site prediction and variant effect estimation.
+
+For more details, please refer to the [paper](https://www.nature.com/articles/s42003-024-07298-9).
+
+## Pre-trained Model Overview
+The pre-trained weights for Spliceformer-45k and SpliceAI-10k provided in this repository were trained on:
+
+* ENSEMBL v87 Annotations: Protein-coding transcripts with splice junctions.
+* RNA-Seq Data:
+   * Icelandic Cohort: 17,848 whole blood RNA-Seq samples sequenced by deCODE Genetics.
+   * GTEx V8: 15,201 RNA-Seq samples across 49 human tissues.
 
 ## Setup
 
@@ -47,3 +62,20 @@ To reproduce the results in the Jupyter notebooks it is neccesary to run them ro
 To run step 4 it is only necessary to run train_transformer_model.ipynb and train_spliceai_10k_model.ipynb from step 2, but some of the notebooks require models fine-tuned on RNA-Seq data.
 
 It is also possible to skip step 2 and 3 and use the pre-trained models instead (/Results/PyTorch_Models).
+
+## Citing
+
+If you find this work useful in your research, please consider citing: 
+
+```shell
+@article{jonsson2024transformers,
+  title={Transformers significantly improve splice site prediction},
+  author={J{\'o}nsson, Benedikt A and Halld{\'o}rsson, G{\'\i}sli H and {\'A}rdal, Stein{\th}{\'o}r and R{\"o}gnvaldsson, S{\"o}lvi and Einarsson, Ey{\th}{\'o}r and Sulem, Patrick and Gu{\dh}bjartsson, Dan{\'\i}el F and Melsted, P{\'a}ll and Stef{\'a}nsson, K{\'a}ri and {\'U}lfarsson, Magn{\'u}s {\"O}},
+  journal={Communications Biology},
+  volume={7},
+  number={1},
+  pages={1--9},
+  year={2024},
+  publisher={Nature Publishing Group}
+}
+```
