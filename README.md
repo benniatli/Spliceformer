@@ -4,8 +4,8 @@ Spliceformer is a machine learning tool that leverages transformers to detect sp
 
 This repository provides:
 
-* Jupyter Notebooks: Step-by-step examples for training and inference.
-* Pre-trained Weights: Ready-to-use models for splice site prediction and variant effect estimation.
+* Jupyter Notebooks: Includes code for dataset construction, model training, and evaluation.
+* Pre-trained Weights: Ready-to-use PyTorch models for splice site prediction and estimating variant effects on splicing.
 
 For more details, please refer to the [paper](https://www.nature.com/articles/s42003-024-07298-9).
 
