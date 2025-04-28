@@ -11,6 +11,6 @@ pyfaidx==0.6.2
 pyfastx==0.8.4
 regex==2021.10.8
 scikit-learn
-torch==1.11.0
+torch
 transformers==4.20.0
 umap-learn==0.5.3
