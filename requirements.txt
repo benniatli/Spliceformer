@@ -3,7 +3,7 @@ einops==0.4.1
 gffutils==0.11.0
 glob2==0.7
 h5py
-joblib==1.1.0
+joblib
 matplotlib==3.4.3
 nbconvert==6.2.0
 pandas==1.4.2
@@ -12,5 +12,5 @@ pyfastx==0.8.4
 regex==2021.10.8
 scikit-learn
 torch
-transformers==4.20.0
-umap-learn==0.5.3
+transformers
+umap-learn
